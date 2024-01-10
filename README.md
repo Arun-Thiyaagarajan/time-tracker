@@ -1,8 +1,56 @@
-# React + Vite
+```markdown
+# Time Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple time tracker application built with React.
 
-Currently, two official plugins are available:
+![Time Tracker Screenshot](/src/assets/time-tracker.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Track time intervals with 0.25-hour increments.
+- Increase, decrease, and reset the timer.
+- Data persists in local storage.
+
+## Demo
+
+[Live Demo](https://nat-time-tracker.netlify.app/)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Arun-Thiyaagarajan/time-tracker.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd time-tracker
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the application:
+
+   ```bash
+   npm run dev
+   ```
+
+   The app will be accessible at http://localhost:5173.
+
+## Usage
+
+- Click the "+" button to increase the timer by 0.25 hours.
+- Click the "-" button to decrease the timer by 0.25 hours (cannot go below 0).
+- Click the "Reset" button to reset the timer to 0.
