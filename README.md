@@ -1,4 +1,3 @@
-```markdown
 # Time Tracker App
 
 A simple time tracker application built with React.
